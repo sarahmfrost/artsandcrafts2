@@ -15,7 +15,7 @@ run:
 python test.py <path to image>
 ```
 
-# Sample input 
+# Sample input (from running validation) 
 
 Images at 64 × 45 pixels 
 
