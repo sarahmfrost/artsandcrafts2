@@ -14,7 +14,7 @@ python train.py
 ```
 run:
 ```bash
-python sample.py
+python test.py <path to image>
 ```
 
 # Sample output
