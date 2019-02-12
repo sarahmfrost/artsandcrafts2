@@ -2,7 +2,9 @@
 
 Autoencoder for upsampling images based on Manu Mathew Thomas's autoencoder code. 
 
-# in model.py
+# in model.py: 
+
+We first resize the images to the ground truth size, (128 × 90) which causes the images to become pixelated, and then we train the network to reduce the pixel-y-ness.  
 
 ```bash
 def SRNetwork(input_data):
